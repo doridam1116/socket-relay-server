@@ -1,6 +1,6 @@
 # Relay
 
-**Relay**는 POS, KDS, DID 간 실시간 통신을 중계하는 WebSocket 기반의 서버입니다.  
+**Relay**는 각 디바이스간 실시간 통신을 중계하는 WebSocket 기반의 서버입니다.  
 Node.js + Express + Socket.IO 기반으로 구축되었으며, 다양한 기기 간 실시간 메시지 전달을 지원합니다.
 
 ---
