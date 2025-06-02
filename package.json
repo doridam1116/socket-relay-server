@@ -1,0 +1,23 @@
+{
+    "name": "flutter_socket_server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "cross-env NODE_ENV=development node index.js",
+        "start": "cross-env NODE_ENV=production node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "express": "^4.17.3",
+        "socket.io": "^4.4.0",
+        "winston": "^3.17.0"
+    },
+    "type": "module",
+    "devDependencies": {
+        "cross-env": "^7.0.3"
+    }
+}
